@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+  background-color: rgb(40, 64, 101);
+}
+
+.navBar{
+  background-color: #3a3535;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  height: 50px;
+}
+
+.navBar a{
+  color: white;
+  text-decoration: none;
+}
+
+.navBar li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar ul{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.App{
+  background-color: rgb(40, 64, 101);
+}

@@ -1,0 +1,15 @@
+.editContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 60%;
+}
+
+.titulo-form{
+    margin: 30px 0;
+    text-decoration:underline;
+}
